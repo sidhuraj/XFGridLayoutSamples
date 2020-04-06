@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridLayoutEx.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="DisplayActionSheet" x:Name="Display" Order="Secondary"/>
+        <ToolbarItem Text="BarcodeQRcode" x:Name="Barcode" Order="Secondary"/>
+    </ContentPage.ToolbarItems>
+    <Grid  HorizontalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btnLogin" Grid.Row="0" Grid.Column="0" Text="One" HorizontalOptions="FillAndExpand"/>
+
+
+        <Button x:Name="btnTwo" Grid.Row="0" Grid.Column="1" Text="Two"  HorizontalOptions="FillAndExpand"/>
+
+
+        <Button x:Name="btnThree" Grid.Row="1" Grid.Column="0" Text="Three" Grid.ColumnSpan="2"  HorizontalOptions="FillAndExpand"/>
+
+
+        <Button Grid.Row="2" Grid.Column="0" Text="One" HorizontalOptions="FillAndExpand"/>
+
+        <Button Grid.Row="2" Grid.Column="1" Text="One" HorizontalOptions="FillAndExpand"/>
+
+
+
+    </Grid>
+    
+    
+
+</ContentPage>
+    
+    <!--Practise-->
+<!--<Grid>
+        
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="178" />
+            <RowDefinition Height="178"/>
+            <RowDefinition Height="178"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="180"/>
+            
+           </Grid.ColumnDefinitions>
+        
+        --><!--< x:Name="btnLogin" Grid.Row="0" Grid.Column="0" Text="one" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="btnTwo" Grid.Row="0" Grid.Column="1" Text="Two" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="btnthree" Grid.Row="1" Grid.Column="0" Text="Three" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="btnfour" Grid.Row="1" Grid.Column="1" Text="four" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="btnfive" Grid.Row="2" Grid.Column="0" Text="five" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="btnsix" Grid.Row="2" Grid.Column="1" Text="six"/>--><!--
+        <Image Source="hrithik.jpg" Grid.Row="0" Grid.Column="0" />
+        <Image Source="hrithik.jpg" Grid.Row="0" Grid.Column="1" />
+        <Image Source="prabhu.jpg" Grid.Row="1" Grid.Column="0"  />
+        <Image Source="prabhu.jpg" Grid.Row="1" Grid.Column="1" />
+        <Image Source="prabhu.jpg" Grid.Row="2" Grid.Column="0" />
+        <Image Source="prabhu.jpg" Grid.Row="2" Grid.Column="1" />
+    </Grid>-->

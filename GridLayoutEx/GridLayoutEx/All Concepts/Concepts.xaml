@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GridLayoutEx.All_Concepts.Concepts">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+           <!--DisplaySheet-->
+            <Label Text="" HorizontalOptions="Center" x:Name="DisplayActionSheet" TextColor="Maroon" FontSize="20" />
+            <Button Text="ActionSheet" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand"/>
+         <!--Barcode:-->
+            <Button Text="Scan" Clicked="Button_Clicked_1"/>
+            <Label Text="" x:Name="Mycode" TextColor="Red" HorizontalOptions="FillAndExpand" />
+          <!--working with Images-->
+            <Image Source="" x:Name="Myimages" Aspect="Fill"/>
+          <!--Toast Message-->
+            <Button Text="Click Toast" Clicked="Button_Clicked_2"/>
+           <!--Displaying Popups-->
+            <Button Text="DisplayPopups" Clicked="Button_Clicked_3"/>
+            <!--Switch-->
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Switch view" FontSize="Medium" TextColor="Black"/>
+                    <Label Text="{Binding IsToggled,Source={x:Reference switch}}" TextColor="Black" VerticalOptions="Center" HorizontalOptions="EndAndExpand"/>
+                    <Switch x:Name="switch" VerticalOptions="Start"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                <Label Text="Switch view2" FontSize="Medium" TextColor="Black"/>
+            <Label TextColor="Black" VerticalOptions="Center" HorizontalOptions="EndAndExpand" x:Name="sv2"/>
+            <Switch x:Name="switch2" VerticalOptions="Start" Toggled="switch2_Toggled"/>
+            </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

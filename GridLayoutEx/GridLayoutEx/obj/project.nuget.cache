@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "yCjPnDA1jE9ZwFktvPlcS8FoNmm1X5Mwl1Og7H1a4Rniu7XIcN7vaSLv8LqEdG9TlXhBflMkLkR5pNdoTKLHpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santosh\\source\\repos\\GridLayoutEx\\GridLayoutEx\\GridLayoutEx\\GridLayoutEx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santosh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\patget.zxing.net.mobile\\99.0.1\\patget.zxing.net.mobile.99.0.1.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\patget.zxing.net.mobile.forms\\99.0.2\\patget.zxing.net.mobile.forms.99.0.2.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
